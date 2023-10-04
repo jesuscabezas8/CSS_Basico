@@ -13,7 +13,7 @@ curso básico de CSS
 <br>
 <br>
 
-## tipos de programacion
+## :alien: tipos de programacion
 <br>
 
 ***
