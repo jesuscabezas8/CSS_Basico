@@ -9,7 +9,7 @@ curso básico de CSS
 *  crear un diseño.
 *  entre otras funciones.
 
-  <br>
+ <br>
 <br>
 <br>
 
@@ -17,8 +17,9 @@ curso básico de CSS
 <br>
 ### programacion CSS Externa: 
 El CSS externo existe en su propio archivo, el cual está enlazado a un documento HTML con una etiqueta `<link>`. Es el método más usado para añadir CSS a HTML, ya que una hoja de estilo externa puede dictar el estilo de diferentes documentos HTML. Esto permite que los desarrolladores hagan cambios a lo ancho del sitio con un solo archivo CSS.
+
 ~~~
-`<link rel="stylesheet" target="_blank" rel="noopener" href="style.css">`
+<link rel="stylesheet" target="_blank" rel="noopener" href="style.css">
 ~~~
 <br>
 
