@@ -15,6 +15,8 @@ curso básico de CSS
 
 ## tipos de programacion
 <br>
+
+***
 ### programacion CSS Externa: 
 El CSS externo existe en su propio archivo, el cual está enlazado a un documento HTML con una etiqueta `<link>`. Es el método más usado para añadir CSS a HTML, ya que una hoja de estilo externa puede dictar el estilo de diferentes documentos HTML. Esto permite que los desarrolladores hagan cambios a lo ancho del sitio con un solo archivo CSS.
 
