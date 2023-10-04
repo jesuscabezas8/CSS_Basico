@@ -33,6 +33,7 @@ El CSS interno es un código CSS incrustado en un documento HTML. Está escrito 
 
 ### programacion CSS En Linea
 CSS en línea se ubica dentro de una etiqueta HTML para cambiar el estilo de un elemento en específico, la declaración está escrita como el valor del atributo de estilo.
+
 <img src="https://blog.hubspot.es/hubfs/queescssinline.png">
 <br>
 
