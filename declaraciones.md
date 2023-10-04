@@ -1,4 +1,4 @@
-# :declaraciones css
+# :smiling_imp: declaraciones css
 
 Una declaración de CSS es un bloque que especifica el conjunto de estilos que se añadirán a un elemento HTML, el cual esta estructurado por: 
 <br>
