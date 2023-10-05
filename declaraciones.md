@@ -10,6 +10,7 @@ Una declaración de CSS es un bloque que especifica el conjunto de estilos que s
 * `valores`:  indica cómo quieres que cambien esas características de estilo.
 
   <br>
+  
   ## atributos para fuentes y textos
 
  ***
