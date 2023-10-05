@@ -164,6 +164,7 @@ Este atributo sirve para indicar la alineación del texto. Es uno de esos atribu
 *  `center`
 *  `center`
 *  `justify` : A veces justify no funciona en todos los sistemas. De todos modos, no es un estilo que se use mucho en la web, sino más bien en la maquetación de libros o revistas.
+
   
 ~~~
 div.centrado {
@@ -177,6 +178,7 @@ div.centrado {
 ### text-indent
 
 Este atributo permite establecer un sangrado o indentación (como un margen a la izquierda). No se suele usar mucho, la verdad, ya que es algo más típico de medios impresos.
+
 
 ~~~
 p {
@@ -194,6 +196,7 @@ Es bastante útil como criterio de diseño. Los valores que podemos usar son est
 * `capitalize` : la primera letra de cada palabra en mayúscula
 * `lowercase` : todas en minúscula
 * `none` : lo deja tal cual esté en el código HTML de la página
+
 
   ~~~
 h3 {
