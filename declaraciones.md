@@ -64,12 +64,54 @@ Estas fuentes genéricas se suelen usar como "fallback", de modo que, si no est�
 * `monospace`
 
   ~~~
+  
 span {
   font-family: 'Times New Roman', Times, serif;
 }
   ~~~
 
 ### font-weight
+
+Este atributo indica la espesura del texto, Se usa mucho para indicar que queremos un texto en negrita, pero también existen espesuras más finas que la normal, que son interesantes como recurso de diseño.
+Podemos indicar la espesura con muchos tipos de valores. Los valores posibles son los siguientes:
+
+Ten en cuenta que no siempre las fuentes que tienes instaladas soportan todas las espesuras. A veces descargamos una fuente que no tiene la espesura fina, o la negrita. En esos casos el navegador puede representar la fuente normal o hacer una aproximación de la espesura deseada de manera aproximada
+
+* `normal` : Peso/grueso normal de la fuente. Igual que 400.
+* `bold` : Grueso ancho (negrita). Igual que 700.
+* `bolder` : Corresponde a un tipo de fuente más grueso que el tipo del elemento padre (dentro de los valores disponibles).
+* `lighter` : Corresponde a un tipo de fuente menos grueso que el tipo del elemento padre (dentro de los valores disponibles).
+* `100-500` : un valor entre 100 y 500 se presentará con el valor más próximo disponible para dar una letra más clara
+* `600-900` : y entre 600 y 900, será bold.
+
+~~~
+b {
+    font-weight: bolder;
+}
+h1 {
+    font-weight: 300;
+}
+~~~
+
+### font-style
+
+Este atributo sirve para indicar si queremos fuente oblícua, es decir, itálica.
+Los valores posibles son:
+
+* `normal`
+* `italic`
+* `oblique`
+
+Los valores "italic" o "oblique" son equivalentes.
+
+~~~
+li {
+    font-style: italic;
+}
+~~~
+
+
+
 
 
  
