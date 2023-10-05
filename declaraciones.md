@@ -27,6 +27,50 @@ h1 {
     color: #ff3355;
 }
  ~~~
- 
+
+ ### font-size
+
+ Sirve para indicar el tamaño de las fuentes de manera exacta, permitiendo distintos tipos de unidades CSS, absolutas y relativas.
+ Además, aunque no se usa mucho, existen como varios tamaños definidos por nombres, como xx-small, x-small, small, medium, large, x-large, xx-large, que dejan a juicio del navegador qué tamaño exacto usar.
+
+~~~
+footer {
+    font-size: 1.25rem;
+}
+div .nota {
+    font-size: small;
+}
+~~~
+
+### font-family
+
+Con este atributo indicamos la familia tipográfica que tendrán los elementos. Podemos indicar valores de fuentes específicas o algunos nombres de fuentes genéricos.
+
+~~~
+article {
+    font-family: verdana;
+}
+p {
+    font-family: serif;
+}
+~~~
+Cuando usamos estos nombres genéricos el navegador es el que elige la fuente en particular que va a colocar. Será una familia tipográfica que respete el nombre genérico. Por ejemplo, si indicamos "sans-serif" el navegador podría elegir fuentes como arial, verdana, helvetica...
+Estas fuentes genéricas se suelen usar como "fallback", de modo que, si no está la fuente que nosotros hemos definido anteriormente, usará cualquiera que se adapte al nombre genérico.
+
+* `serif`
+* `sans-serif`
+* `cursive`
+* `fantasy`
+* `monospace`
+
+  ~~~
+span {
+  font-family: 'Times New Roman', Times, serif;
+}
+  ~~~
+
+### font-weight
+
+
  
   
