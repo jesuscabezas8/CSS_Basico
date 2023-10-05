@@ -111,6 +111,98 @@ li {
 }
 ~~~
 
+<br>
+
+## Atributos para bloques de texto
+
+Antes hemos visto atributos "font", que permitían definir estilos para textos. Ahora vamos a ver estilos para el texto, lo que resulta bastante parecido. La diferencia de estos atributos es que a veces tienen sentido cuando se aplican sobre bloques de texto, como los párrafos.
+
+### line-height
+
+Este es un estilo fundamental para facilitar la lectura del texto. Sirve para definir la altura de las líneas del texto. Por tanto, podemos usarlo para especificar el espaciado entre líneas.
+
+~~~
+li {
+    line-height: 24px;
+}
+body {
+    line-height: 1.4em;
+}
+~~~
+
+### text-decoration
+
+Este atributo permite definir la decoración del texto, lo que equivale a si está subrayado o tachado, o por el contrario nada de eso.
+
+valores posibles
+
+* `none`
+* `underline`
+* `overline`
+*  `line-trough`
+
+ ~~~
+a {
+    text-decoration: none;
+}
+~~~
+
+ ~~~
+.tachado {
+    text-decoration: line-through;
+}
+~~~
+  
+Un uso típico es quitarle el subrayado a los enlaces
+
+### text-align
+
+Este atributo sirve para indicar la alineación del texto. Es uno de esos atributos que solamente tiene sentido aplicar sobre bloques de texto, como los párrafos.
+
+* `left`
+*  `right`
+*  `center`
+*  `center`
+*  `justify` : A veces justify no funciona en todos los sistemas. De todos modos, no es un estilo que se use mucho en la web, sino más bien en la maquetación de libros o revistas.
+  
+~~~
+div.centrado {
+    text-align: center;
+}
+.columna-numerica {
+    text-align: right;
+}
+~~~
+
+### text-indent
+
+Este atributo permite establecer un sangrado o indentación (como un margen a la izquierda). No se suele usar mucho, la verdad, ya que es algo más típico de medios impresos.
+
+~~~
+p {
+    text-indent: 16px;
+}
+~~~
+
+### text-transform
+
+Este atributo permite hacer transformaciones sobre el texto, que afectan al tamaño de caja (si son mayúsculas o minúsculas).
+
+Es bastante útil como criterio de diseño. Los valores que podemos usar son estos:
+
+* `uppercase` : todas en mayúsculas
+* `capitalize` : la primera letra de cada palabra en mayúscula
+* `lowercase` : todas en minúscula
+* `none` : lo deja tal cual esté en el código HTML de la página
+
+  ~~~
+h3 {
+    text-transform: uppercase;
+}
+  ~~~
+
+link infrormacion https://desarrolloweb.com/articulos/186.php
+
 
 
 
