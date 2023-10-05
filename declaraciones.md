@@ -186,6 +186,7 @@ p {
 }
 ~~~
 
+
 ### text-transform
 
 Este atributo permite hacer transformaciones sobre el texto, que afectan al tamaño de caja (si son mayúsculas o minúsculas).
