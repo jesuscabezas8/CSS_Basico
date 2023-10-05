@@ -54,6 +54,7 @@ p {
     font-family: serif;
 }
 ~~~
+
 Cuando usamos estos nombres genéricos el navegador es el que elige la fuente en particular que va a colocar. Será una familia tipográfica que respete el nombre genérico. Por ejemplo, si indicamos "sans-serif" el navegador podría elegir fuentes como arial, verdana, helvetica...
 Estas fuentes genéricas se suelen usar como "fallback", de modo que, si no está la fuente que nosotros hemos definido anteriormente, usará cualquiera que se adapte al nombre genérico.
 
@@ -63,12 +64,11 @@ Estas fuentes genéricas se suelen usar como "fallback", de modo que, si no est�
 * `fantasy`
 * `monospace`
 
-
-  ~~~
+ ~~~
 span {
   font-family: 'Times New Roman', Times, serif;
 }
-  ~~~
+ ~~~
 
 
 ### font-weight
