@@ -14,5 +14,19 @@ Una declaración de CSS es un bloque que especifica el conjunto de estilos que s
   ## atributos para fuentes y textos
 
  ***
+ ### color
+
+ Este atributo sirve para definir el color del TEXTO de un elemento. Lo admiten casi todas las etiquetas HTML, ya que en casi todas podemos colocar texto. 
+ Podemos colocar los colores con valores RGB, con nombres y otras anotaciones
+
+ ~~~
+h1 {
+    color: blue;
+}
+.destacar {
+    color: #ff3355;
+}
+ ~~~
+ 
  
   
