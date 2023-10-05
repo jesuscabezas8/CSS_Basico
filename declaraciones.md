@@ -63,12 +63,13 @@ Estas fuentes gen√©ricas se suelen usar como "fallback", de modo que, si no est√
 * `fantasy`
 * `monospace`
 
+
   ~~~
-  
 span {
   font-family: 'Times New Roman', Times, serif;
 }
   ~~~
+
 
 ### font-weight
 
