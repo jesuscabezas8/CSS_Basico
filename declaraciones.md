@@ -205,6 +205,25 @@ h3 {
 }
   ~~~
 
+## atributos para fondos
+
+***
+
+### background-color
+
+Sirve para definir un color de fondo.
+ El color puede ser con cualquier notación de colores HTML.
+
+~~~
+section {
+    background-color: red;
+    color: #fff;
+}
+h1 {
+    background-color: #eee;
+    padding: 1.5rem;
+}
+~~~
 link infrormacion https://desarrolloweb.com/articulos/186.php
 
 
