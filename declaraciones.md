@@ -197,12 +197,12 @@ Es bastante útil como criterio de diseño. Los valores que podemos usar son est
 * `lowercase` : todas en minúscula.
 * `none` : lo deja tal cual esté en el código HTML de la página.
 
-  
+~~~  
 h3
 {
     text-transform: uppercase;
 }
-
+~~~
 
 ## atributos para fondos
 
