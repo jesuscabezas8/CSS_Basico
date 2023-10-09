@@ -186,24 +186,23 @@ p {
 }
 ~~~
 
-
 ### text-transform
 
 Este atributo permite hacer transformaciones sobre el texto, que afectan al tamaño de caja (si son mayúsculas o minúsculas).
 
 Es bastante útil como criterio de diseño. Los valores que podemos usar son estos:
 
-* `uppercase` : todas en mayúsculas
-* `capitalize` : la primera letra de cada palabra en mayúscula
-* `lowercase` : todas en minúscula
-* `none` : lo deja tal cual esté en el código HTML de la página
+* `uppercase` : todas en mayúsculas.
+* `capitalize` : la primera letra de cada palabra en mayúscula.
+* `lowercase` : todas en minúscula.
+* `none` : lo deja tal cual esté en el código HTML de la página.
 
-
-  ~~~
-h3 {
+  
+h3
+{
     text-transform: uppercase;
 }
-  ~~~
+
 
 ## atributos para fondos
 
